@@ -1,52 +1,8 @@
 * {
     box-sizing: border-box;
 }
-/* home start */
-html, body{
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    /* background-color:#59693938; */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 50%;
-}
 
-.menu {
-    float: left;
-    width: 20%;
-}
-
-.menuitem {
-    padding: 8px;
-    margin-top: 7px;
-    border-bottom: 1px solid #f1f1f1;
-}
-
-.main {
-    float: left;
-    width: 60%;
-    padding: 0 20px;
-    overflow: hidden;
-}
-
-.right {
-    background-color: lightblue;
-    float: left;
-    width: 20%;
-    padding: 10px 15px;
-    margin-top: 7px;
-}
-
-
-.background_image{
-    margin: 0px -3% 300% ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 50%;}
-/* home end */
-
-
+/* =====nav start ===========*/
 .header{
     height: 50vh;
     /* background-color: lightyellow; */
@@ -57,8 +13,6 @@ html, body{
 
     font-family: 'Caesar Dressing';
     font-size: 16px;
-
-
     background-color: #f4f6f7c7;
     box-shadow: 0 5px 10px #4e4545 ;
     text-transform: uppercase;
@@ -121,10 +75,59 @@ a.btn:hover {
 }
 
 
+/* ==============nav end===================== */
+
+/* =============home start==================== */
+html, body{
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    /* background-color:#59693938; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 50%;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+}
+
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
 
 
+.background_image{
+    margin: 0px -3% 300% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 50%;}
+/* =======home end========== */
 
+/* ========blog ============ */
+#blog{
+    background-color: grey;
+}
 
+/* ========blog end========== */
 
 
 
