@@ -88,6 +88,10 @@ html, body{
     background-size: 100% 50%;
 }
 
+.title{
+    text-align: center;
+}
+
 .menu {
     float: left;
     width: 20%;
