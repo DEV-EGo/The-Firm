@@ -106,7 +106,7 @@ html, body{
     overflow: hidden;
 }
 
-.right {
+.right-blogpost {
     background-color: lightblue;
     float: left;
     width: 20%;
@@ -139,7 +139,7 @@ html, body{
         padding: 0;
     }
 
-    .right {
+    .right-blogpost {
         width: 100%;
     }
 }
@@ -149,7 +149,7 @@ html, body{
     /* For mobile phones: */
     .menu,
     .main,
-    .right {
+    .right-blogpost {
         width: 100%;
     }
 }
