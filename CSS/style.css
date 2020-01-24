@@ -80,6 +80,7 @@ a.btn:hover {
 /* =============home start==================== */
 html, body{
     font-size: 14px;
+    background-color: black;
     line-height: 1.42857143;
     color: #333;
     /* background-color:#59693938; */
@@ -111,7 +112,8 @@ html, body{
 }
 
 .right-blogpost {
-    background-color: lightblue;
+    background-color: #8efdf894;
+    box-shadow: 20px 9px 17px 0px hsla(199, 92%, 61%, 0.62);
     float: left;
     width: 20%;
     padding: 10px 15px;
