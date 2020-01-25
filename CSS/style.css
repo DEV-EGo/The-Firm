@@ -88,7 +88,7 @@ html, body{
     background-attachment: fixed;
     background-size: 100% 50%;
 }
-
+/* ====================main blog ==================*/
 .title{
     text-align: center;
     background-color:#f1f1f1;
@@ -113,6 +113,34 @@ html, body{
     overflow: hidden;
 }
 
+.card{
+box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+background: blueviolet;
+transition: 0.3s;
+max-width: 300px;
+margin: auto;
+text-align:center;
+border-radius: 5px;
+}
+
+.container-card{
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img  { 
+    border-radius: 2px 16px;
+    width: 35%;
+}
+
+#law {
+    width: 100%;
+}
+
 .right-blogpost {
     background-color: #8efdf894;
     box-shadow: 20px 9px 17px 0px hsla(199, 92%, 61%, 0.62);
@@ -128,15 +156,20 @@ html, body{
     margin: 0px -3% 300% ;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 50%;}
-/* =======home end========== */
+    background-size: 100% 50%;
+}
 
-/* ========blog ============ */
 #blog{
     background-color: grey;
 }
 
-/* ========blog end========== */
+
+
+/* =======main end========== */
+
+/* ======== ============ */
+
+/* ======= ========= */
 
 
 
