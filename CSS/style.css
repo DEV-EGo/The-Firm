@@ -80,7 +80,7 @@ a.btn:hover {
 /* =============home start==================== */
 html, body{
     font-size: 14px;
-    background-color: black;
+    background-color: #a7a5a5;
     line-height: 1.42857143;
     color: #333;
     /* background-color:#59693938; */
@@ -91,7 +91,7 @@ html, body{
 /* ====================main blog ==================*/
 .title{
     text-align: center;
-    background-color:#e0a853e8;
+    background-color:#d2aa6ee8;
     padding:15px;
 }
 
@@ -204,9 +204,15 @@ img  {
 
 /* =======main end========== */
 
-/* ======== ============ */
-
-/* ======= ========= */
+/* ====== FOOTER ============== */
+.footer {
+background-color:#e23a29c7;
+text-align:center;
+padding:10px;
+margin-top:7px;
+font-size:12px;
+}
+/* ======= FOOTER END ========= */
 
 
 
