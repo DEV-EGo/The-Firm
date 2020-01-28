@@ -87,6 +87,7 @@ html, body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 50%;
+    font-family:Verdana;
 }
 /* ====================main blog ==================*/
 .title{
@@ -204,6 +205,7 @@ img  {
 
 #blog{
     background-color: #d6d1ac;
+    overflow:"auto";
 }
 
 
@@ -237,7 +239,7 @@ text-align: center;
     width: 5%;
     }
     
-    #warning_pic {
+ #warning_pic {
         float: right;
         width: 40%;
         padding: 5px 50px;
@@ -246,6 +248,16 @@ text-align: center;
     }
 
 .Gallery_blog {
+transition: 0.3s;
+float: left;
+max-width: 300px;
+margin: auto;
+text-align:center;
+border-radius: 5px;
+margin-top: 18px;
+}
+
+#_2ndBlog{
 transition: 0.3s;
 float: center;
 max-width: 300px;
