@@ -86,7 +86,8 @@ html, body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 50%;
-    font-family:Verdana;
+    font-family:Verdana, "Lucida Sans", sans-serif;
+   
 }
 /* ====================main blog ==================*/
 .title{
@@ -258,18 +259,21 @@ text-align:center;
 border-radius: 5px;
 margin-top: 18px;
 border-bottom: 1px solid #090821;
-
+position: relative;
+display: inline-block;
 }
 
 #_2ndBlog{
 transition: 0.3s;
 max-width: 300px;
-margin: auto;
 text-align:center;
 border-radius: 5px;
 padding: 18px;
-margin-top: 7px;
 border-bottom: 1px solid #090821;
+position: relative;
+display: inline-block;
+margin: -30px 10px 20px 284px;
+
 }
 
 #_2ndBlogtext {
@@ -279,12 +283,12 @@ border-bottom: 1px solid #090821;
 #_3rdBlog {
 float: right;
 max-width: 300px;
-margin: auto;
 text-align:center;
 border-radius: 5px;
 padding: 18px;
-margin-top: 7px;
+margin: 5px 5px 10px 70px;
 border-bottom: 1px solid #090821;
+position: relative;
 }
 
 #_3rdBlogtext {
