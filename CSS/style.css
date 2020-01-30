@@ -245,6 +245,11 @@ text-align: center;
     margin-top: 0px;
     margin-bottom: 60px;
     }
+.gallery{
+    margin: 80px 60px;
+
+}
+
 #Gallery_text{
     padding-left: 7rem;
 
@@ -263,15 +268,23 @@ display: inline-block;
 }
 
 #_2ndBlog{
-transition: 0.3s;
-max-width: 300px;
+
+    float: right;
+    max-width: 300px;
+    text-align:center;
+    border-radius: 5px;
+    padding: 18px;
+    border-bottom: 1px solid #090821;
+    margin: 0px 218px 244px;
+
+/* max-width: 300px;
 text-align:center;
 border-radius: 5px;
 padding: 18px;
 border-bottom: 1px solid #090821;
 position: relative;
 display: inline-block;
-margin: -30px 10px 20px 284px;
+margin: -30px 10px 20px 284px; */
 
 }
 
@@ -285,9 +298,9 @@ max-width: 300px;
 text-align:center;
 border-radius: 5px;
 padding: 18px;
-margin: 5px 5px 10px 70px;
+margin: 2px -109px 1px;
 border-bottom: 1px solid #090821;
-position: relative;
+/* position: relative; */
 }
 
 #_3rdBlogtext {
