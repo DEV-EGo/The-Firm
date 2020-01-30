@@ -231,8 +231,7 @@ text-align: center;
 
 /* gallery */
 #slide-show {
-    float: center;
-    margin-bottom: 100px;
+    margin: 281px 175px;
 
 }
 .carousel-control {
