@@ -248,18 +248,32 @@ text-align: center;
 .carousel-control {
     width: 5%;
     }
-#rights_2{
+
+
+ .rights{
+    float: right;
+    width: 40%;
+ 
+    }
+
+.rights_2{
     float: left;
     width: 55rem;
     height: 62rem;
  
 }
+.container-warning {
 
- #rights{
-    float: right;
-    width: 40%;
- 
-    }
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 40vh 30vh 30vh;
+    grid-gap: 10px;
+    grid-template-areas: 
+      "rights_2" 
+      "rights" 
+
+}
+
 .gallery{
     margin: 80px 60px;
 
