@@ -95,7 +95,15 @@ html, body{
     background-color:#d2aa6ee8;
     padding:15px;
 }
-
+#Twitter {
+    color: #4574ca;
+}
+#Facebook {
+    color: darkblue;
+}
+#linkedin{
+    color:#1d88b1;
+}
 .menu {
     float: left;
     width: 20%;
@@ -301,6 +309,10 @@ border-bottom: 1px solid #090821;
 #_3rdBlogtext {
     margin: 10px;
 }
+
+
+/*=== ***** CONTACT CSS ************ */
+.form-group
 
 @media only screen and (max-width:800px) {
 
