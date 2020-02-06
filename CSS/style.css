@@ -79,15 +79,14 @@ a.btn:hover {
 
 /* =============home start==================== */
 html, body{
-    font-size: 14px;
     background-color: #d6d1ac;
-    line-height: 1.42857143;
-    color: #333;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 50%;
     font-family:Verdana, "Lucida Sans", sans-serif;
-   
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
 }
 /* ====================main blog ==================*/
 .title{
