@@ -238,7 +238,25 @@ text-align: center;
 }
 /* ======= FOOTER END ========= */
 
-/* gallery */
+/*================================= gallery page =========*/
+
+p{
+    background-color: blue;
+    color: white;
+}
+
+.classItem {
+    background-color: orange;
+    color: white;
+}
+
+#idItem{
+    background-color: green;
+    color: white;
+}
+
+
+/*================================= gallery page end =========*/
 
 #slide-show {
     margin: 281px 175px;
