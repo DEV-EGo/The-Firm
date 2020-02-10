@@ -224,6 +224,55 @@ img  {
 
 
 /*================================= gallery page =========*/
+* {
+    box-sizing: border-box;
+}
+
+#fixed {
+    background: #eee;
+    position: fixed;
+    padding: 40px;
+    text-align: center;
+    margin: 0;
+    top: 0;
+    left: 0;
+
+}
+
+.wrapper {
+    width: 600px;
+    margin:0 auto 0 auto;
+    padding: 20px;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+#relative {
+    background: #eee;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px ;
+    text-align: center;
+}
+
+#absolute{
+    background: #999;
+}
+
+
+
+
+
 #gallery_head {
     background: #ccc;
     padding: 20px;
@@ -261,17 +310,23 @@ float: left;
     overflow: auto;
     background-color: #eee;
     width: 100%;
+    
 }
 
 #division {
     background-color: #6ea3da;
     padding: 20px;
+    margin-top: 20px;
 }
 
 aside{
     background-color: #fff;
     width: 33%;
     height: 200px;
+    border: 1px solid #eee;
+    padding: 20px;
+    float: left;
+    margin-left: 30px ;
 }
 
 
@@ -279,8 +334,9 @@ aside{
 
 /* ====== FOOTER ============== */
 .footer {
+    clear: both;
+    padding:20px;
     background-color:#e23a29c7;
-    padding:10px;
     margin-top:7px;
     font-size:10px;
     position: fixed;
