@@ -229,14 +229,14 @@ img  {
 }
 
 #fixed {
-    background: #eee;
+    background-image: url(/img/statue.jpg);
     position: fixed;
-    padding: 40px;
+    padding: 49px;
     text-align: center;
     margin: 0;
     top: 0;
     left: 0;
-
+ 
 }
 
 .wrapper {
@@ -259,12 +259,19 @@ p {
 }
 
 #relative {
+    background-image: url(/);
     background: #eee;
     position: relative;
     padding: 20px;
     margin-bottom: 20px ;
     text-align: center;
     height: 200px;
+    /* width: 250px; */
+}
+
+#rights2 {
+    width: 105px;
+
 }
 
 #absolute{
@@ -275,17 +282,16 @@ p {
     text-align: center;
     bottom: 0 ;
     right: -30px;
+    
 }
 
 
-
-
-
 #gallery_head {
-    background: #ccc;
-    padding: 20px;
+    background: #e5625499;
+    padding: 3px;
     margin-bottom: 20px;
     color: #333;
+    text-align: center;
 }
 
 section{
