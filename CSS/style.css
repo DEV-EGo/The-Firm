@@ -282,8 +282,9 @@ p {
     padding: 20px;
     text-align: center;
     bottom: 0 ;
-    right: -30px;
-    
+    right: -224px;
+    font-size: 10px;
+    line-height: 12px;
 }
 
 
