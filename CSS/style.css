@@ -183,8 +183,9 @@ button:hover, a:hover {
 
 img  { 
     border-radius: 2px 16px;
-    width: 85%;
-    margin: 20px;
+    width: 100%;
+    width: 380px;
+    margin: -92px 83px;
 
 }
 
@@ -271,8 +272,11 @@ p {
 }
 
 .rights2 {
-    width: 300px;
-    
+    /* width: 300px; */
+    border-radius: 2px 16px;
+    width: 100%;
+    width: 380px;
+    margin: -92px 83px;
 }
 
 #absolute{
@@ -288,7 +292,6 @@ p {
 
 
 #gallery_head {
-    background: #e5625499;
     padding: 3px;
     margin-bottom: 20px;
     color: #333;
@@ -304,6 +307,14 @@ section{
     color: white;
     width: 33%;
     float: left;
+}
+
+#victory{
+    height: 12px;
+    position: relative;
+    padding: 6%;
+    text-align: center;
+    height: 310px;
 }
 
 #middle {
