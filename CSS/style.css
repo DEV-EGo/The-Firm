@@ -310,20 +310,18 @@ section{
 }
 
 #victory{
-    height: 12px;
     position: relative;
     padding: 10% 2% 3% 16%;
-    text-align: center;
     height: 332px;
     margin-left: auto;
-
+    width: fit-content;
 }
 
 #middle {
     background-color: #888;
     color: white;
     width: 33%;
-float: left;
+    float: left;
 }
 
 #right {
